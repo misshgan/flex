@@ -326,6 +326,7 @@
     text-decoration-line: line-through;
 
     color: #999999;
+    opacity: 0.8;
 }
 
 .text__btn {
