@@ -171,9 +171,13 @@
     max-width: 90vw;
     margin: 0 auto;
     padding-top: 85px;
-    margin-bottom: 65px;
+    margin-bottom: 85px;
 
     display: flex;
+}
+
+.text {
+    flex-shrink: 0;
 }
 
 .h1 {
