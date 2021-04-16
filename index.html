@@ -10,11 +10,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="src/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="src/icons/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="src/icons/icons.css">
     <title>Logo Auto</title>
 </head>
 <body>
     <header class="header">
-        <span class="logo">logo<span class="logo__red">auto</span></span>
+        <span class="logo">logo<span class="text__red">auto</span></span>
         <nav class="header__nav">
             <ul class="nav__ul">
                 <li class="nav__li"><a href="#" class="nav__a">Home</a></li>
@@ -26,13 +27,65 @@
             </ul>
         </nav>
         <div class="header__btns">
-            <a href="#" class="h__btn">Login</a>
-            <a href="#" class="h__btn__red">Register</a>
+            <a href="#" class="h__btn" title="click and login">Login</a>
+            <a href="#" class="h__btn__red" title="click and register">Register</a>
         </div>
     </header>
-
     <main>
+        <section class="top">
+            <div class="text">
+                <h1 class="h1">Could you be our <span class="text__red">next winner?</span></h1>
+                <a href="#" class="top__btn" title="you can enter right now">Enter now</a>
+            </div>
+            <div class="top__img">
+                <img src="src/images/ellipse.svg" alt="ellipse" class="ellipse">
+                <img src="src/images/img.png" alt="car" class="car">
+            </div>
+        </section>
 
+        <section class="middle">
+            <h2 class="h2">Latest Competitions</h2>
+            <div class="row">
+                <div class="cards">
+                    <div class="card">
+                        <img src="src/images/car1.jpg" alt="car-1" class="car__img">
+                        <span class="car__name">2020 Audi S5 Coupe </span>
+                        <span class="price">$19.99 <span class="gray">$54.99</span></span>
+                        <div class="text__btn">
+                            <span class="ticket">5784 tickets remaining</span>
+                            <a href="#" class="right__btn" title="check more info"><span class="icon-right"></span></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="src/images/car2.jpg" alt="car-2" class="car__img">
+                        <span class="car__name">2016 Ford Mustang Shelby GT350</span>
+                        <span class="price">$7.99 <span class="gray">$9.99</span></span>
+                        <div class="text__btn">
+                            <span class="ticket">5784 tickets remaining</span>
+                            <a href="#" class="right__btn" title="check more info"><span class="icon-right"></span></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="src/images/car3.jpg" alt="car-3" class="car__img">
+                        <span class="car__name">2020 Bugatti Chiron </span>
+                        <span class="price">$29.99 <span class="gray">$49.99</span></span>
+                        <div class="text__btn">
+                            <span class="ticket">5784 tickets remaining</span>
+                            <a href="#" class="right__btn" title="check more info"><span class="icon-right"></span></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="src/images/car4.jpg" alt="car-4" class="car__img">
+                        <span class="car__name">2019 Porsche 911 Carrera </span>
+                        <span class="price">$14.99 <span class="gray">$19.99</span></span>
+                        <div class="text__btn">
+                            <span class="ticket">5784 tickets remaining</span>
+                            <a href="#" class="right__btn" title="check more info"><span class="icon-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
 
     </main>

@@ -31,6 +31,7 @@
     max-width: 90vw;
     margin: 0 auto;
     padding-top: 40px;
+    margin-bottom: 45px;
 
     display: flex;
     justify-content: space-between;
@@ -52,10 +53,10 @@
 
 .logo:hover {
     transform: rotate(1turn);
-    transition: 1s linear;
+    transition: 1s ease-in-out;
 }
 
-.logo__red {
+.text__red {
     color: #FF2E63; 
 }
                     
@@ -160,4 +161,207 @@
 .h__btn__red:hover {
     color: #FF2E63;
     background: white;
+}
+
+
+
+/* TOP */ 
+
+.top {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-top: 85px;
+    margin-bottom: 65px;
+
+    display: flex;
+}
+
+.h1 {
+    max-width: 350px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    margin-right: -50px;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.2;
+
+    color: #343434;
+}
+
+.top__img {
+    position: relative;
+
+    flex-grow: 2;
+}
+
+.ellipse {
+    width: 50%;
+
+    position: absolute;
+    top: -85px;
+    right: 90px;
+
+    z-index: -1;
+}
+
+.car {
+    width: 100%;
+}
+
+.top__btn {
+    text-decoration: none;
+    padding: 10px 27px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.37;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #346CD9;
+    border: 1px solid #346CD9;
+    border-radius: 5px;
+
+    transition: .25s ease-in-out;
+}
+
+.top__btn:hover {
+    color: #346CD9;
+    background: #FFFFFF;
+}
+
+
+
+/* MIDDLE */
+
+.middle {
+    max-width: 90vw;
+    margin: 0 auto; 
+    margin-bottom: 300px;
+}
+
+.h2 {
+    margin-top: 0;
+    margin-bottom: 45px;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.27;
+
+    color: #343434;
+}
+
+.cards {
+    display: flex;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.card {
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    margin: 0 15px;
+
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition:  .25s ease;
+}
+
+.car__img {
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+
+.car__name {
+    max-width: 250px;
+    display: block;
+    margin-left: 17px;
+    margin-bottom: 1em;
+
+    flex-grow: 2;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.3;
+
+    color: #252A34;
+}
+
+.price {
+    display: block;
+    margin-left: 17px;
+    margin-bottom: 20px;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.26;
+
+    color: #FF2E63;
+}
+
+.gray {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    text-decoration-line: line-through;
+
+    color: #999999;
+}
+
+.text__btn {
+    margin-left: 17px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ticket {
+    align-self: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.35;
+
+    color: #343434;
+}
+
+.right__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    padding: 14px 11px;
+
+    background: #346CD9;
+    border: 1px solid #346CD9;
+    border-radius: 10px 0px;
+}
+
+.right__btn:hover {
+    color: #346CD9;
+    background: #FFFFFF;
+    transition: .25s ease-in-out;
 }
