@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('src/fonts/Open/OpenSans-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -106,6 +113,15 @@
 
     color: #252A34;
     text-decoration: none;
+}
+
+.nav__a_active {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.35;
+
+    color: #252A34;
 }
 
 .h__btn {
@@ -247,7 +263,13 @@
 .middle {
     max-width: 90vw;
     margin: 0 auto; 
-    margin-bottom: 300px;
+    margin-bottom: 100px;
+}
+
+.middle-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .h2 {
@@ -260,6 +282,21 @@
     line-height: 1.27;
 
     color: #343434;
+}
+
+.all-cars {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.37;
+
+    color: #FF2E63;
+}
+
+.all-cars:hover {
+    font-size: 18px;
+    transition: .25s linear;
 }
 
 .cards {
@@ -375,4 +412,233 @@
     color: #346CD9;
     background: #FFFFFF;
     transition: .25s ease-in-out;
+}
+
+
+
+/* HOW IT WORKS */ 
+
+.how-it-works {
+    padding-bottom: 100px;
+}
+
+.title {
+    margin-bottom: 60px;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.27;
+    text-align: center;
+
+    color: #343434;
+}
+
+.rules {
+    max-width: 90vw;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.rule {
+    max-width: 25%;
+    margin: 0 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.rule__img {
+    max-width: 64px;
+    align-self: center;
+
+    margin-bottom: 30px;
+}
+
+.rule__title {
+    flex-grow: 2;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.37;
+    text-align: center;
+
+    color: #343434;
+}
+
+.rule__sub-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.37;
+    text-align: center;
+
+    color: #343434;
+}
+
+.vector {
+    margin-top: 20px;
+    max-width: 32px;
+    max-height: 20px;
+}
+
+
+
+/* REVIEW */ 
+
+.review {
+    max-width: 90vw;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.review__img {
+    width: 50%;
+}
+
+.review__text {
+    width: 50%;
+    display: block;
+    background: rgba(52, 108, 217, 0.12);
+}
+
+.review__p {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 78px;
+    margin-bottom: 30px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+
+    color: #343434;
+}
+
+.review__subtitle {
+    display: block;
+    margin: 0 auto;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #343434;
+}
+
+
+
+/* LATEST ARTICLES */ 
+
+.latest-articles {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.bottom-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.27;
+
+    color: #343434;
+}
+
+.card__title {
+    flex-grow: 2;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.3;
+
+    color: #252A34;
+}
+
+.card__subtitle {
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.35;
+
+    color: #343434;
+}
+
+
+
+/* FOOTER */ 
+
+.footer {
+    max-width: 100vw;
+
+    background: #346CD9;
+}
+
+.footer-content {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.26;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-nav__item {
+    padding: 15px;
+
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.35;
+
+    color: #FFFFFF;
+
+    position: relative;
+}
+
+.footer-nav__item_active {
+    font-weight: 800;
+}
+
+.footer-nav__item::after {
+    position: absolute;
+    margin-left: 15px;
+	left: 0;
+    top: 80%;
+	content: '';
+	height: 2px;
+	width: 0; 
+	background: #FFFFFF;
+    transition: .25s linear;
+}
+
+.footer-nav__item:hover::after {
+    width: calc(100% - 30px);
 }
