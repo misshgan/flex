@@ -55,8 +55,6 @@
     transition: .25s linear;
 }
 
-
-
 .aside {
     min-width: 20%;
     max-width: 25%;
@@ -135,4 +133,65 @@
 
 .contacts__subtitle_black {
     font-weight: 600;
+}
+
+.page-counter {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.page-counter__digit {
+    padding: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.38;
+
+    color: #343434;
+    cursor: pointer;
+}
+
+.page-counter__digit_active {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.38;
+
+    text-decoration-line: underline;
+
+    color: #346CD9;
+}
+
+.page-counter__digit:hover {
+    color: #346CD9;
+}
+
+.page-counter__dots {
+    margin: 0 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.38;
+
+    color: #343434;
+}
+
+.page-counter__btn {
+    padding: 9px 15px;
+
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #346CD9;
+    border: 1px solid #346CD9;
+    border-radius: 5px;
+}
+
+.page-counter__btn:hover {
+    color: #FFFFFF;
+    background: #346CD9;
+    transition: .25s linear;
 }
