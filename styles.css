@@ -30,13 +30,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 
 /* HEADER */ 
 
 .header {
-    max-width: 90vw;
-    margin: 0 auto;
     padding-top: 40px;
     margin-bottom: 45px;
 
@@ -188,8 +191,6 @@
 /* TOP */ 
 
 .top {
-    max-width: 90vw;
-    margin: 0 auto;
     padding-top: 85px;
     margin-bottom: 85px;
 
@@ -261,8 +262,6 @@
 /* MIDDLE */
 
 .middle {
-    max-width: 90vw;
-    margin: 0 auto; 
     margin-bottom: 100px;
 }
 
@@ -302,6 +301,7 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .row {
@@ -314,7 +314,7 @@
     flex-grow: 1;
 
     min-width: 260px;
-    max-width: calc(33,333% - 30px);
+    max-width: calc(33.333% - 30px);
 
     margin: 0 15px;
     margin-bottom: 30px;
@@ -489,9 +489,6 @@
 /* REVIEW */ 
 
 .review {
-    max-width: 90vw;
-    margin: 0 auto;
-
     display: flex;
 }
 
@@ -538,8 +535,6 @@
 /* LATEST ARTICLES */ 
 
 .latest-articles {
-    max-width: 90vw;
-    margin: 0 auto;
     padding: 100px 0;
 }
 
