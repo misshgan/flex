@@ -19,6 +19,44 @@
     color: #343434;
 }
 
+.card__av {
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.35;
+
+    color: #343434;
+}
+
+.card__btn {
+    text-decoration: none;
+    padding: 9px 22px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.37;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #FF2E63;
+    border-radius: 5px;
+    border: 1px solid #FF2E63;
+}
+
+.card__btn:hover {
+    color: #FF2E63;
+    background: #FFFFFF;
+    transition: .25s linear;
+}
+
+
+
 .aside {
     min-width: 20%;
     max-width: 25%;
