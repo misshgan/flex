@@ -314,7 +314,7 @@
     flex-grow: 1;
 
     min-width: 260px;
-    max-width: calc(25% - 30px);
+    max-width: calc(33,333% - 30px);
 
     margin: 0 15px;
     margin-bottom: 30px;

@@ -1,0 +1,100 @@
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-top: 35px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.row__title {
+    margin-left: 15px;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.28;
+
+    color: #343434;
+}
+
+.aside {
+    min-width: 20%;
+    max-width: 25%;
+    height: 100%;
+    margin-right: 30px;
+    padding: 20px;
+
+
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.brand {
+    margin-bottom: 60px;
+}
+
+.brand__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+
+    letter-spacing: -0.2px;
+
+    color: #1C1C1C;
+}
+
+.brand__car {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand__car-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+
+    color: #252A34;
+}
+
+.brand__car-name_inactive {
+    color: #999999;
+}
+
+.brand__car-count {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+
+    text-align: center;
+
+    color: #999999;
+}
+
+.contacts__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+
+    letter-spacing: -0.2px;
+
+    color: #1C1C1C;
+}
+
+.contacts__subtitle {
+    display: block;
+    margin-top: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+
+    color: #252A34;
+}
+
+.contacts__subtitle_black {
+    font-weight: 600;
+}
